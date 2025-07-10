@@ -147,7 +147,7 @@ if st.session_state.event_description:
             answer = response.text
 
         st.session_state.chat_history.append({"user": user_input, "bot": answer})
-        st.experimental_rerun()
+        st.rerun()
 else:
     st.info("👈 Please describe your event in the sidebar to start simulation.")
 
