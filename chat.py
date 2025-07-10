@@ -80,15 +80,6 @@ if "chat_history" not in st.session_state:
 with st.sidebar:
     st.header("📋 Event Setup")
 
-    venue_name = st.text_input("Venue Name", "Nehru Stadium")
-    total_capacity = st.number_input("Expected Crowd", min_value=0, value=10000)
-    gates = st.text_area("Gate Info (Name, Opening Time, Closing Time)",
-                         "Gate A: 8:00 AM - 11:00 AM\nGate B: 8:00 AM - 11:00 AM")
-    structure = st.text_area("Venue Structure",
-                             "Main Stage at center, Gate A on East end, Gate B on west end, Food area near Gate A, Toilets near Gate B, etc.")
-    event_timeline = st.text_area("Event Timeline",
-                                  "Opening: 8 AM\nMain Performance: 12 PM\nClosing: 2 PM")
-
     if st.button("✅ Save Event Details"):
         event_prompt = f"""
         Event Name: {venue_name}
@@ -99,6 +90,17 @@ with st.sidebar:
         """
         st.session_state.event_description = event_prompt
         st.success("✅ Event details saved.")
+
+
+    venue_name = st.text_input("Venue Name", "Nehru Stadium")
+    total_capacity = st.number_input("Expected Crowd", min_value=0, value=10000)
+    gates = st.text_area("Gate Info (Name, Opening Time, Closing Time)",
+                         "Gate A: 8:00 AM - 11:00 AM\nGate B: 8:00 AM - 11:00 AM")
+    structure = st.text_area("Venue Structure",
+                             "Main Stage at center, Gate A on East end, Gate B on west end, Food area near Gate A, Toilets near Gate B, etc.")
+    event_timeline = st.text_area("Event Timeline",
+                                  "Opening: 8 AM\nMain Performance: 12 PM\nClosing: 2 PM")
+
 
     st.divider()
     st.markdown("### 🔑 API Configuration")
