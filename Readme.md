@@ -62,5 +62,9 @@ Create a .streamlit/secrets.toml file and add your Gemini API key:
     streamlit run chat.py
 
 ---
-Made by Shivam Gupta for Google Agentic AI Day Hackathon
+## 📺 Demo
+<img width="1366" height="540" alt="image" src="https://github.com/user-attachments/assets/5ba23c43-6f65-4b1e-931f-0279459fd891" />
+<img width="1366" height="557" alt="image" src="https://github.com/user-attachments/assets/87ee8198-3a03-404a-bca5-139a159e5c83" />
 
+---
+**Made by Shivam Gupta for Google Agentic AI Day Hackathon**
