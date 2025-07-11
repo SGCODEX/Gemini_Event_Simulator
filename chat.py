@@ -76,7 +76,7 @@ with st.sidebar:
     venue = st.text_input("Venue Name", "Nehru Stadium")
     capacity = st.number_input("Expected Crowd", min_value=0, value=10000)
     gates = st.text_area("Gate Info", "Gate A: 8:00 AM - 11:00 AM\nGate B: 8:00 AM - 11:00 AM")
-    structure = st.text_area("Venue Structure", "Stage center, Gate A East, Gate B West...")
+    structure = st.text_area("Venue Structure", "Stage center, Gate A East, Gate B West, Toilets near Gate A, Food Stalls near Gate B...")
     timeline = st.text_area("Event Timeline", "Opening: 8 AM\nMain: 12 PM\nClose: 2 PM")
 
     if st.button("✅ Save Event Details"):
