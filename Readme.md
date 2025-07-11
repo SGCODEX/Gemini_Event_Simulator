@@ -1,0 +1,1 @@
+Example Situation: Imagine 2000 people came more. How should we make them disperse properly at 2PM to avoid stampede
