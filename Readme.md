@@ -1,5 +1,3 @@
-Example Situation: Imagine 2000 people came more. How should we make them disperse properly at 2PM to avoid stampede
-
 # 👁️ Drishti Access – Event Situations Simulation Chatbot
 
 Drishti Access is a multilingual, AI-powered chatbot designed to simulate and respond to crowd management scenarios during large public events. Using Google's Gemini API and Text-to-Speech, it lets you define venue structure, crowd size, gate timings, and ask realistic "what-if" questions like:
