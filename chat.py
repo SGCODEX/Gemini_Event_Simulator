@@ -58,7 +58,7 @@ section[data-testid="stSidebar"] {
 
 # ----------------- HEADER -----------------
 
-st.markdown("<h1 style='color:#7B61FF;'>👁️ Drishti Access's Event Situations Simulation Chatbot</h1>", unsafe_allow_html=True)
+st.markdown("<h2 style='color:#7B61FF;'>👁️ Drishti Access: Event Situations Simulation Chatbot</h2>", unsafe_allow_html=True)
 
 # ----------------- SESSION -----------------
 
