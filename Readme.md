@@ -61,7 +61,7 @@ Create a .streamlit/secrets.toml file and add your Gemini API key:
 
 3. **Run the app:**
     ```bash
-    streamlit run app.py
+    streamlit run chat.py
 
 ---
 Made by Shivam Gupta for Google Agentic AI Day Hackathon
